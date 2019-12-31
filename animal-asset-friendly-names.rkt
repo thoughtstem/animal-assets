@@ -427,105 +427,105 @@
   
   ; == FOOD
   (define apple-sprite
-    (sheet->sprite apple
+    (sheet->sprite apple-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define banana-sprite
-    (sheet->sprite banana
+    (sheet->sprite banana-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define broccoli-sprite
-    (sheet->sprite broccoli
+    (sheet->sprite broccoli-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define cherries-sprite
-    (sheet->sprite cherries
+    (sheet->sprite cherries-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define eggplant-sprite
-    (sheet->sprite eggplant
+    (sheet->sprite eggplant-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define greengrapes-sprite
-    (sheet->sprite greengrapes
+    (sheet->sprite greengrapes-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define kiwi-sprite
-    (sheet->sprite kiwi
+    (sheet->sprite kiwi-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define mushroom-sprite
-    (sheet->sprite mushroom
+    (sheet->sprite mushroom-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define onion-sprite
-    (sheet->sprite onion
+    (sheet->sprite onion-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define pepper-sprite
-    (sheet->sprite pepper
+    (sheet->sprite pepper-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define pineapple-sprite
-    (sheet->sprite pineapple
+    (sheet->sprite pineapple-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define potato-sprite
-    (sheet->sprite potato
+    (sheet->sprite potato-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define purplegrapes-sprite
-    (sheet->sprite purplegrapes
+    (sheet->sprite purplegrapes-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define strawberry-sprite
-    (sheet->sprite strawberry
+    (sheet->sprite strawberry-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
                    #:delay 5))
 
   (define tomato-sprite
-    (sheet->sprite tomato
+    (sheet->sprite tomato-image
                    #:rows 1
                    #:columns 1
                    #:row-number 1
