@@ -1,15 +1,15 @@
 #lang racket
 
 (provide (rename-out 
-          (blackcat-sprite cat)
+          (goldencat-sprite cat)
           (fish-sprite fish)
           (browndog-sprite dog)
-          (chicken-sprite chicken)
-          (cow-sprite cow)
-          (goat-sprite goat)
-          (llama-sprite llama)
+          (brownchicken-sprite chicken)
+          (browncow-sprite cow)
+          (browngoat-sprite goat)
+          (goldenllama-sprite llama)
           (pig-sprite pig)
-          (rabbit-sprite rabbit)
+          (bluerabbit-sprite rabbit)
           (sheep-sprite sheep)
           (turkey-sprite turkey)
           (goldenhorse-sprite horse)
@@ -88,16 +88,21 @@
            browndog-sprite
            brownhorse-sprite
            chicken-sprite
+           brownchicken-sprite
            cow-sprite
+           browncow-sprite
            fish-sprite
            goat-sprite
+           browngoat-sprite
            goldencat-sprite
            goldendog-sprite
            goldenhorse-sprite
            grayhorse-sprite
            llama-sprite
+           goldenllama-sprite
            pig-sprite
            rabbit-sprite
+           bluerabbit-sprite
            sheep-sprite
            turkey-sprite
            ;whitecat-sprite
@@ -201,8 +206,22 @@
                    #:row-number 4
                    #:delay 5))
 
+  (define brownchicken-sprite
+    (sheet->sprite (tint-img "darkred" chicken-sheet)
+                   #:rows 4
+                   #:columns 4
+                   #:row-number 4
+                   #:delay 5))
+
   (define cow-sprite
     (sheet->sprite cow-sheet
+                   #:rows 1
+                   #:columns 4
+                   #:row-number 1
+                   #:delay 5))
+
+    (define browncow-sprite
+    (sheet->sprite (tint-img "sienna" cow-sheet)
                    #:rows 1
                    #:columns 4
                    #:row-number 1
@@ -218,6 +237,13 @@
 
   (define goat-sprite
     (sheet->sprite goat-sheet
+                   #:rows 1
+                   #:columns 4
+                   #:row-number 1
+                   #:delay 5))
+
+    (define browngoat-sprite
+    (sheet->sprite (tint-img "saddlebrown" goat-sheet)
                    #:rows 1
                    #:columns 4
                    #:row-number 1
@@ -258,6 +284,14 @@
                    #:row-number 1
                    #:delay 5))
 
+  (define goldenllama-sprite
+    (sheet->sprite (tint-img "goldenrod" llama-sheet)
+                   #:rows 1
+                   #:columns 4
+                   #:row-number 1
+                   #:delay 5))
+
+
   (define pig-sprite
     (sheet->sprite pig-sheet
                    #:rows 1
@@ -267,6 +301,13 @@
 
   (define rabbit-sprite
     (sheet->sprite rabbit-sheet
+                   #:rows 1
+                   #:columns 5
+                   #:row-number 1
+                   #:delay 5))
+
+  (define bluerabbit-sprite
+    (sheet->sprite (tint-img "steelblue" rabbit-sheet)
                    #:rows 1
                    #:columns 5
                    #:row-number 1
