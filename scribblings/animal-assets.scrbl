@@ -7,6 +7,7 @@
 
 @defmodule[animal-assets]
 
-@(require scribble/extract)
+@(require define-assets-from)
 
-@(include-extracted "../assets.rkt")
+@(require (submod "../assets.rkt" asset-docs))
+@(doc-all (submod "../assets.rkt" asset-docs))
